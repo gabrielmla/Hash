@@ -10,7 +10,7 @@ public abstract class AbstractHashtableOpenAddress<T extends Storable> extends A
 	private int tableSize;
 	
 	public AbstractHashtableOpenAddress(int size) {
-		this.tableSize = tableSize;
+		this.tableSize = size;
 	}
 	
 	@Override

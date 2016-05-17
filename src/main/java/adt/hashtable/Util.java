@@ -11,7 +11,7 @@ public class Util {
 	 */
 	public static boolean isPrime(long n){
 		boolean result = true;
-		for (int i = 2; i < n/2 && result; i++) {
+		for (int i = 2; i <= n/2 && result; i++) {
 			result = result && (n % i != 0);
 		}
 		return result;
